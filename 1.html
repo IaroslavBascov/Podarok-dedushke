@@ -1,0 +1,43 @@
+<Html>
+<Head>
+<script>
+   function mouseIn(Cell,Cell2,Cell3) {
+    var Cel=document.getElementById(Cell);
+    var Cel2=document.getElementById(Cell2);
+    var Cel3=document.getElementById(Cell3);
+    Cel.bgColor ="#ffffff";
+    Cel2.bgColor = "#999999";
+    Cel.classList.add("radius");
+    Cel.classList.remove("zad");
+    Cel2.classList.add("zad");
+    Cel2.classList.remove("radius");
+   }
+  </script>
+ <style>
+.element {
+  position: sticky;
+  top:0;
+  margin: 0px 0px 0px 0px;
+  padding-top:10px;
+  opacity: 0.9; 
+}
+.element td{ 
+  border:1px solid grey;
+  border-bottom:0px solid grey;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  background:#fff;
+  opacity: 0.9; 
+}
+ </style>
+</Head>
+ <TABLE width=100% ><TR><TD height=50 bgcolor="#069"></TABLE>
+ <TABLE width=100% BGcolor="#ccf" class="element" CellPadding=0 cellspacing=0 id="foo"><TR>
+ <TD height=30>Главная
+ <TD>Галерея
+ <TD>Биография
+ <TD>Биография
+ </TABLE>
+ <TABLE border=1 width=100% ><TR><TD height=1000 bgcolor="#069"><TD height=1000 width=25%></TABLE>
+</Body>
+</Html>
