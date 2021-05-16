@@ -1,30 +1,28 @@
+<!DOCTYPE html>
 <Html>
 <Head>
- <style>
-.element {
-  position: sticky;
-  top:0;
-  margin: 0px 0px 0px 0px;
-  padding-top:10px;
-  opacity: 0.9; 
-}
-.element td{ 
-  border:1px solid grey;
-  border-bottom:0px solid grey;
-  border-radius: 15px 15px 0px 0px;
-  text-align: center;
-  background:#fff;
-  opacity:1; 
-}
- </style>
+ <LINK href="c.css" rel="stylesheet" type="text/css">
 </Head>
- <TABLE width=100% ><TR><TD height=50 bgcolor="#069"></TABLE>
- <TABLE width=100% BGcolor="#ccf" class="element" CellPadding=0 cellspacing=0 id="foo"><TR>
- <TD height=30>Главная
- <TD>Галерея
- <TD>Биография
- <TD>Биография
+<Body style="margin: 0px 0px 0px 0px;background:black" onClick="n()">
+ <TABLE width=100%  CellPadding=0 cellspacing=0 class="tab" bgcolor="#ddeeff">
+ <TR>
+  <Th Width=10% HEIGHT=50><img src="pic/logo.jpg" class="pic" HEIGHT=90%><th colspan=3><H1 align=left>Добро пожаловать, дедушка!</H1>
+ <TR>
  </TABLE>
- <TABLE border=1 width=100% ><TR><TD height=1000 bgcolor="#069"><TD height=1000 width=25%></TABLE>
+ <TABLE width=100% class="tab"  height=60 bgcolor="#ddeeff">
+ <TR><TD align=center >Тут находатся основные новости.
+ <TD align=center width=50%>Это твои фото и родословное дерево.
+ </TABLE>
+ <TABLE width=100% class="element" CellPadding=0 cellspacing=0><TR>
+ <TH height=30><a href="index.html">Главная
+ <TD  width=50%><a href="gal.html">Галерея
+ </TABLE>
+ <audio src="dr.mp3" id="a" width=5% class="son"></audio>
+   <TR><TD  align=center>
+   <img class=img  src="pic/dd.gif" width=50%>
+   <img src="pic/far.gif" width=100% style="position: fixed;top:0;border:1px solid black;width:100%;height:100%;  z-index: -1;">
+ </TABLE>
+  <script src="fair.js">
+ </script>
 </Body>
 </Html>
